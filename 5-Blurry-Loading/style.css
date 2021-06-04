@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.background {
+  background: url("../1-Expanding-Cards/assets/Img1.jpg") center/cover no-repeat;
+  position: absolute;
+  z-index: -1;
+  /* top: -30px;
+  left: -30px;
+  height: calc(100vh + 60px);
+  width: calc(100vw + 60px); */
+  height: 100vh;
+  width: 100vw;
+  filter: blur(10px);
+}
+.loading_text {
+  font-size: 50px;
+  color: white;
+}
